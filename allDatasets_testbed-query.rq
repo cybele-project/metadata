@@ -1,12 +1,6 @@
 #+ method: POST
 #+ transform: {
 #+    "id": "?s",
-#+    "modified":"$dct:modified" ,
-#+    "issued":"$dct:issued" ,
-#+    "publisher": {
-#+    	"id":"$dct:publisher" ,
-#+    	"label":"$rdfs:label|skos:prefLabel"
-#+    }
 #+    "$anchor": "id"
 #+    }
 
