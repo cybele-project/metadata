@@ -15,31 +15,6 @@
 #+      "id": "?v6r",
 #+      "label": "?v61"
 #+    }
-#+    "language": {
-#+      "id": "?v7r",
-#+      "label": "?v71"
-#+    },
-#+    "temporal": {
-#+      "id": "?v8r",
-#+      "endDate": "?v81",
-#+      "startDate": "?v82"
-#+    },
-#+    "temporalResolution": "?v9",
-#+    "conformsTo": {
-#+      "id": "?v10r",
-#+      "label": "?v101"
-#+    },
-#+    "landingPage": "?v11",
-#+    "accrualPeriodicity": {
-#+      "id": "?v12r",
-#+      "label": "?v121"
-#+    },
-#+    "spatial": {
-#+      "id": "?v13r",
-#+      "geometryAsWKT": "?v131",
-#+      "label": "?v132"
-#+    },
-#+    "spatialResolutionInMeters": "?v14"
 #+    }
 
 
