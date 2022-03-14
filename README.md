@@ -28,7 +28,7 @@ The second group includes the methods that allow specifying the testbed to use f
 
 |Input: testbed (string)|
 | - |
-The methods are exactly as the ones above, but with the suffix \_testbed, e.g., allDatasets\_testbed, getByKeyword\_testbed, getResource\_testbed
+The methods are exactly as the ones above, but with the suffix \_testbed, e.g., allDatasets\_testbed, getByKeyword\_testbed, getResource\_testbed
 ## Updates in final release
 In the final release of the Data Semantic Alignment & Enrichment service several improvements and updates have been introduced that are mainly related to the support of the final version of the CYBELE Common Semantic Model. The updates are summarized to the following:
 
