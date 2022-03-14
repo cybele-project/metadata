@@ -102,15 +102,16 @@ PREFIX qb4st: <http://www.w3.org/ns/qb4st/>
     OPTIONAL { ?s dct:modified ?v1  }.
     OPTIONAL { ?s dct:issued ?v2  }.
     OPTIONAL { ?s dct:publisher ?v3r .
-    
+    OPTIONAL { ?v3r rdfs:label|skos:prefLabel ?v31  }}.
     OPTIONAL { ?s dct:title ?v4  }.
     OPTIONAL { ?s dct:description ?v5  }.
     OPTIONAL { ?s dct:accessRights ?v6r .
     
-    
+    OPTIONAL { ?v6r rdfs:label|skos:prefLabel ?v61 .
+    FILTER(lang(?v61) = 'en') }}.
     OPTIONAL { ?s dct:language ?v7r .
-    
-    
+    OPTIONAL { ?v7r rdfs:label|skos:prefLabel ?v71 .
+    FILTER(lang(?v71) = 'en') }}.
     OPTIONAL { ?s dct:temporal ?v8r .
     OPTIONAL { ?v8r dcat:endDate ?v81  }.
     OPTIONAL { ?v8r dcat:startDate ?v82  }}.
@@ -122,8 +123,8 @@ PREFIX qb4st: <http://www.w3.org/ns/qb4st/>
     OPTIONAL { ?v12r rdfs:label|skos:prefLabel ?v121  }}.
     OPTIONAL { ?s dct:spatial ?v13r .
     OPTIONAL { ?v13r locn:geometry ?v131  }.
-    
-    
+    OPTIONAL { ?v13r rdfs:label|skos:prefLabel ?v132 .
+    FILTER(lang(?v132) = 'en') }}.
     OPTIONAL { ?s dcat:spatialResolutionInMeters ?v14  }.
     OPTIONAL { ?s qb:structure ?v15r .
 OPTIONAL { ?v15r qb:component/qb:dimension ?v151r .
@@ -138,11 +139,11 @@ OPTIONAL { ?v15r qb:component/qb:measure ?v152r .
     OPTIONAL { ?v152r rdfs:comment ?v1524  }}}.
     OPTIONAL { ?s dcat:distribution ?v16r .
 OPTIONAL { ?v16r dct:license ?v161r .
-    
-    
+    OPTIONAL { ?v161r rdfs:label|skos:prefLabel ?v1611 .
+    FILTER(lang(?v1611) = 'en') }}.
 OPTIONAL { ?v16r dcat:mediaType ?v162r .
-    
-    
+    OPTIONAL { ?v162r rdfs:label|skos:prefLabel ?v1621 .
+    FILTER(lang(?v1621) = 'en') }}.
     OPTIONAL { ?v16r dcat:byteSize ?v163  }.
 OPTIONAL { ?v16r cybele:accessDatabase|cybele_sec:accessDatabase ?v164r .
     OPTIONAL { ?v164r rdfs:label ?v1641  }.
@@ -151,19 +152,7 @@ OPTIONAL { ?v164r cybele:accessTable|cybele_sec:accessTable ?v1643r .
     OPTIONAL { ?v1643r cybele:tableName|cybele_sec:tableName ?v16431  }.
     OPTIONAL { ?v1643r dct:subject ?subject  }}}}
     FILTER(str(?s)=str(?subject))
-  }
-  OPTIONAL { ?v3r rdfs:label|skos:prefLabel ?v31  }}.
-  OPTIONAL { ?v6r rdfs:label|skos:prefLabel ?v61 .
-  FILTER(lang(?v61) = 'en') }}.
-  OPTIONAL { ?v7r rdfs:label|skos:prefLabel ?v71 .
-  FILTER(lang(?v71) = 'en') }}.
-  OPTIONAL { ?v13r rdfs:label|skos:prefLabel ?v132 .
-  FILTER(lang(?v132) = 'en') }}.
-  OPTIONAL { ?v161r rdfs:label|skos:prefLabel ?v1611 .
-  FILTER(lang(?v1611) = 'en') }}.
-  OPTIONAL { ?v162r rdfs:label|skos:prefLabel ?v1621 .
-  FILTER(lang(?v1621) = 'en') }}.
-  }
+  }}
 ORDER BY ?s
 LIMIT 100
 OFFSET 0
