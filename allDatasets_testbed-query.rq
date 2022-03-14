@@ -1,3 +1,5 @@
+#+ summary: "Retrieves all the information about CYBELE datasets, with full structure and including information of referenced resources"
+#+ description: "NOTE: make sure response content type is application/json"
 #+ tags: [ "testbed" ]
 #+ method: GET
 #+ pagination: 100
