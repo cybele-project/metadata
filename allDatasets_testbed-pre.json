@@ -102,7 +102,7 @@
   "grlc": {
     "summary": "Retrieves all the information about CYBELE datasets, with full structure and including information of referenced resources",
     "endpoint": "https://www.foodie-cloud.org/sparql",
-    "tags": [ "testbed" ],
+    "tags": [ "pre" ],
     "method": "GET",
     "pagination": 100
   }
