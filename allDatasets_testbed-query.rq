@@ -1,4 +1,5 @@
-#+ method: "GET"
+#+ tags: [ "testbed" ]
+#+ method: GET
 #+ pagination: 100
 #+ transform: {
 #+    "id": "?s",
