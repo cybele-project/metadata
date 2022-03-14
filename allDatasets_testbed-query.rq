@@ -4,7 +4,17 @@
 #+    "id": "?s",
 #+    "$anchor": "id",
 #+    "modified": "?v1",
-#+    "issued": "?v2"
+#+    "issued": "?v2",
+#+    "publisher": {
+#+      "id": "?v3r",
+#+      "label": "?v31"
+#+    },
+#+    "title": "?v4",
+#+    "description": "?v5",
+#+    "accessRights": {
+#+      "id": "?v6r",
+#+      "label": "?v61"
+#+    }
 #+    }
 
 
