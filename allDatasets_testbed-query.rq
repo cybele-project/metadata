@@ -39,46 +39,7 @@
 #+      "geometryAsWKT": "?v131",
 #+      "label": "?v132"
 #+    },
-#+    "spatialResolutionInMeters": "?v14",
-#+    "structure": {
-#+      "id": "?v15r",
-#+      "dimension": {
-#+        "id": "?v151r",
-#+        "label": "?v1511",
-#+        "range": "?v1512",
-#+        "crs": "?v1513",
-#+        "description": "?v1514"
-#+      },
-#+      "measure": {
-#+        "id": "?v152r",
-#+        "label": "?v1521",
-#+        "range": "?v1522",
-#+        "UoM": "?v1523",
-#+        "description": "?v1524"
-#+      }
-#+    },
-#+    "distribution": {
-#+      "id": "?v16r",
-#+      "license": {
-#+        "id": "?v161r",
-#+        "label": "?v1611"
-#+      },
-#+      "mediaType": {
-#+        "id": "?v162r",
-#+        "label": "?v1621"
-#+      },      
-#+      "byteSize": "?v163",
-#+      "accessDatabase": {
-#+        "id": "?v164r",
-#+        "label": "?v1641",
-#+        "connectionString": "?v1642",
-#+        "accessTable": {
-#+          "id": "?v1643r",
-#+          "label": "?v16431",
-#+          "subject": "?subject"
-#+        }
-#+      }
-#+    }
+#+    "spatialResolutionInMeters": "?v14"
 #+    }
 
 
