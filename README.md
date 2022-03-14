@@ -5,7 +5,7 @@ The operations supported can be classified in two groups.
 
 The first group includes the methods that allow specifying the testbed to use for the query by defining the default graph to be used for querying at Virtuoso (note: a separate graph is used for each testbed):
 
-|Input: endpoint (string)  endpoint for SPARQL query (optional). The testbed can be specified adding the parameter ?default-graph-uri in the URL, e.g., https://www.foodie-cloud.org/sparql?default-graph-uri= https://w3id.org/cybele/datasets1|
+|Input: endpoint (string), endpoint for SPARQL query (optional). The testbed can be specified adding the parameter ?default-graph-uri in the URL, e.g., https://www.foodie-cloud.org/sparql?default-graph-uri=https://w3id.org/cybele/datasets/WIT
 | - |
 The supported methods are:
 
