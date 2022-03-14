@@ -1,7 +1,3 @@
-#+ summary: "Retrieves all the information about CYBELE datasets, with full structure and including information of referenced resources"
-#+ description: "Retrieves all the information about CYBELE datasets including the provided keyword, e.g., greece, in the dataset title or connected resources' labels. NOTE: make sure response content type is application/json"
-#+ endpoint: "https://www.foodie-cloud.org/sparql"
-#+ tags: [ "testbed" ]
 #+ method: "GET"
 #+ pagination: 100
 #+ transform: {
