@@ -2,8 +2,11 @@
 #+ pagination: 100
 #+ transform: {
 #+    "id": "?s",
-#+    "$anchor": "id"
+#+    "$anchor": "id",
+#+    "modified": "$dct:modified",
+#+    "issued": "$dct:issued"
 #+    }
+
 
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
