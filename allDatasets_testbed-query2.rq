@@ -27,14 +27,8 @@ PREFIX cybeleBase: <https://w3id.org/cybele/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX qb4st: <http://www.w3.org/ns/qb4st/>
   SELECT DISTINCT ?s ?v1 ?v2 ?v3r ?v31 
-  FROM ?_testbed_iri
-  FROM <https://w3id.org/cybele/agent>
-  FROM <http://publications.europa.eu/resource/authority/language>
-  FROM <http://publications.europa.eu/resource/authority/country>
-  FROM <http://publications.europa.eu/resource/authority/licence>
-  FROM <http://publications.europa.eu/resource/authority/file-type>
   WHERE {
-    ?s a dcat:Dataset .
+    GRAPH ?_testbed_iri { ?s a dcat:Dataset }
     OPTIONAL { ?s dct:modified ?v1  }.
     OPTIONAL { ?s dct:issued ?v2  }.
     OPTIONAL { ?s dct:publisher ?v3r .
