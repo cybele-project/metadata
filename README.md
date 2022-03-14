@@ -5,7 +5,7 @@ The operations supported can be classified in two groups.
 
 The first group includes the methods that allow specifying the testbed to use for the query by defining the default graph to be used for querying at Virtuoso (note: a separate graph is used for each testbed):
 
-|Input: endpoint (string)  endpoint for SPARQL query (optional). The testbed can be specified adding the parameter ?default-graph-uri in the URL, e.g., https://www.foodie-cloud.org/sparql?default-graph-uri= https://w3id.org/cybele/datasets1|
+|Input: endpoint (string), endpoint for SPARQL query (optional). The testbed can be specified adding the parameter ?default-graph-uri in the URL, e.g., https://www.foodie-cloud.org/sparql?default-graph-uri=https://w3id.org/cybele/datasets/PSNC
 | - |
 The supported methods are:
 
@@ -28,7 +28,7 @@ The second group includes the methods that allow specifying the testbed to use f
 
 |Input: testbed (string)|
 | - |
-The methods are exactly as the ones above, but with the suffix \_testbed, e.g., allDatasets\_testbed, getByKeyword\_testbed, getResource\_testbed
+The methods are exactly as the ones above, but with the suffix \_testbed, e.g., allDatasets\_testbed, getByKeyword\_testbed, getResource\_testbed
 ## Updates in final release
 In the final release of the Data Semantic Alignment & Enrichment service several improvements and updates have been introduced that are mainly related to the support of the final version of the CYBELE Common Semantic Model. The updates are summarized to the following:
 
