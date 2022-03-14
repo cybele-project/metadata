@@ -17,7 +17,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX qb4st: <http://www.w3.org/ns/qb4st/>
   SELECT DISTINCT ?s ?v1 ?v2 ?v3r ?v31 ?v4 ?v5 ?v6r ?v61 ?v7r ?v71 ?v8r ?v81 ?v82 ?v9 ?v10r ?v101 ?v11 ?v12r ?v121 ?v13r ?v131 ?v132 ?v14 ?v15r ?v151r ?v1511 ?v1512 ?v1513 ?v1514 ?v152r ?v1521 ?v1522 ?v1523 ?v1524 ?v16r ?v161r ?v1611 ?v162r ?v1621 ?v163 ?v164r ?v1641 ?v1642 ?v1643r ?v16431 ?subject
   WHERE {
-    GRAPH ?_testbed { ?s a dcat:Dataset .
+    GRAPH ?_testbed_iri { ?s a dcat:Dataset .
     OPTIONAL { ?s dct:modified ?v1  }.
     OPTIONAL { ?s dct:issued ?v2  }.
     OPTIONAL { ?s dct:publisher ?v3r .
