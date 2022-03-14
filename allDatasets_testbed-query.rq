@@ -1,4 +1,6 @@
 #+ method: GET
+#+ tags: [ "testbed" ]
+#+ description: "Retrieves all the information about CYBELE datasets, with full structure and including information of referenced resources. NOTE: make sure response content type is application/json",
 #+ pagination: 100
 #+ transform: {
 #+    "id": "?s",
