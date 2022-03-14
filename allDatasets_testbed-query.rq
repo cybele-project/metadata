@@ -154,3 +154,5 @@ OPTIONAL { ?v164r cybele:accessTable|cybele_sec:accessTable ?v1643r .
     FILTER(str(?s)=str(?subject))
   }}
 ORDER BY ?s
+LIMIT 100
+OFFSET 0
