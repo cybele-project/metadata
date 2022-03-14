@@ -3,8 +3,8 @@
 #+ transform: {
 #+    "id": "?s",
 #+    "$anchor": "id",
-#+    "modified": "$dct:modified",
-#+    "issued": "$dct:issued"
+#+    "modified": "?v1",
+#+    "issued": "?v2"
 #+    }
 
 
