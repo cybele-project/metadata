@@ -79,7 +79,7 @@
     }
   },
   "$where": [
-	"GRAPH ?_testbed { ?s a dcat:Dataset }"
+	"GRAPH ?_testbed_iri { ?s a dcat:Dataset }"
   ],
   "$filter": "str(?s)=str(?subject)",  
   "$prefixes": {
