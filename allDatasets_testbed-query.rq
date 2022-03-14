@@ -1,4 +1,5 @@
 #+ method: POST
+#+ pagination: 100
 #+ transform: {
 #+    "id": "?s",
 #+    "$anchor": "id"
