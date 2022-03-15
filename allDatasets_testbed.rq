@@ -46,14 +46,14 @@
 #+    "structure": {
 #+      "id": "?v15r",
 #+    },
-#+    "structureDimensions": {
+#+    "dimension": {
 #+        "id": "?v151r",
 #+        "label": "?v1511",
 #+        "range": "?v1512",
 #+        "crs": "?v1513",
 #+        "description": "?v1514"
 #+    },
-#+    "structureMeasures": {
+#+    "measure": {
 #+        "id": "?v152r",
 #+        "label": "?v1521",
 #+        "range": "?v1522",
