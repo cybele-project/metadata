@@ -46,14 +46,14 @@
 #+    "structure": {
 #+      "id": "?v15r",
 #+      "dimension": {
-#+        "id": "?v151r$list",
+#+        "id": "?v151r$asList",
 #+        "label": "?v1511",
 #+        "range": "?v1512",
 #+        "crs": "?v1513",
 #+        "description": "?v1514"
 #+      },
 #+      "measure": {
-#+        "id": "?v152r$list",
+#+        "id": "?v152r$asList",
 #+        "label": "?v1521",
 #+        "range": "?v1522",
 #+        "UoM": "?v1523",
