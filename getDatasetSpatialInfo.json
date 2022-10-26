@@ -3,7 +3,7 @@
     "id": "?_resource_iri",    
     "spatial": {
     	"id":"?spatial$anchor",
-    	"geometryAsWKT":"$locn:geometry"
+    	"geometryAsWKT":"$locn:geometry$asList"
     }
   },
   "$where": [    
